@@ -8,12 +8,14 @@ Starting from this work, new possible implementation strategies between TidalCyc
 
 ## Introduction
 
-The TidalCycles language is an expressive and concise way to describe the evolving of patterns in time. This makes it a very effective tool for creating rhythmic structures and managing them over time, particularly for live coding in Algoraves. (more info at www.tidalcycles/userbase). 
+The TidalCycles language is an expressive and concise way to describe the evolving of patterns in time. This makes it a very effective tool for creating rhythmic structures and managing them over time, particularly for live coding in Algoraves. (more info at www.tidalcycles/userbase).
 TidalCycles is typically used in conjunction with the SuperDirt inside Supercollider, but it can be used to control any software or hardware that accepts incoming messages via the Open Sound Control (OSC) protocol. Using TidalCycles to control Max/MSP makes it possible to develop patches/devices that can also be used within Ableton Live and to sequence them in powerful and creative ways.
+
+![](images/DeviceSnap01.png)
 
 ## Technical overview
 
-TidalCycles sends OSC messages to a target port, this port is specified in the BootTidal.hs file. 
+TidalCycles sends OSC messages to a target port, this port is specified in the BootTidal.hs file.
 By default TidalCycles is meant to be used with the SuperDirt synth inside Supercollider and the standard boot fulfills this purpose. In order to use tidal for controlling Max4Live devices it has to be booted from a folder that contains a different BootTidal.hs which is attached. To make sure tidal has booted with the correct configurations check the path of the boot file in the post window after booting.
 
 As well as being able to create a synthesiser within Max and control it in Ableton Live, this approach can be used to control instruments already available within Live and other Live Session parameters.
