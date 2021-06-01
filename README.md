@@ -23,7 +23,7 @@ This is possible because every time a note message is received an event is playe
 
 In the first section of each patch we have an udp receive object that gets messages from the configured OSC port. Then a gate object blocks all messages whose sound parameter does not match the device's sound parameter. In this way, it is possible to send messages on the same port and ensure that each device only considers messages intended for it by specifying a sound parameter in tidal that only matches the target device.
 
-Once received, the message is split into many pairs parameter/value, which are sorted by the route object and then reassembled by a pack object that sends all the information needed to start an instance to a poly~. (the use of poly~ can be avoided if you are only sending midi notes to an internal synth in live, but it can still be useful in some of these cases, for example in the TidalDrumrack controller)
+Once received, the message is split into many pairs parameter/value, which are sorted by the route object and then reassembled by a pack object that sends all the information needed to start an instance to a poly~. (the use of poly~ can be avoided if you are only sending midi notes to an internal synth in live, but it can still be useful in some of these cases, for example in the TidalDrumrack controller).
 
 
 ## Conclusion
