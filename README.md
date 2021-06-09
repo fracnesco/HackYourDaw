@@ -1,6 +1,6 @@
 # TidalCycles-Max4Live
 
-                     Francesco Corvi                                 Department of Music Informatics
+                     Francesco Corvi                                 Music Informatics
 
 ## Abstract
 Here are present a series of Max4live devices that enable controlling Ableton Live through TidalCycles.
