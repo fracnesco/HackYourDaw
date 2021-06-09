@@ -5,6 +5,7 @@
 ## Abstract
 Here are present a series of Max4live devices that enable controlling Ableton Live through TidalCycles.
 Starting from this work, new possible implementation strategies between TidalCycles and Max/MSP and new techniques of algorithmic composition in Ableton Live may be developed.
+In action >> https://youtu.be/L8eKp41L-S4
 
 ## Introduction
 
