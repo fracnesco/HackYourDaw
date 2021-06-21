@@ -4,7 +4,7 @@ $ n "0 1" -- each note triggers a different sample chain in the drum rack
 # s "drums" -- this will send to every device named drums
 # pitch "0 7" -- changes the pitch of the played sample
 
-d2  
-$ n "60" -- this will trigger a midi note
+d2
+$ n "c'maj" -- this will trigger a midi note
 # s "synth" -- this will send to every device named synth
 # macro1 rand -- controlling the first macro of the instrument rack that contains the device
