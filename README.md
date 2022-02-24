@@ -9,7 +9,7 @@ In action >> https://youtu.be/L8eKp41L-S4
 
 ## Introduction
 
-The TidalCycles language is an expressive and concise way to describe the evolving of patterns in time. This makes it a very effective tool for creating rhythmic structures and managing them over time, particularly for live coding in Algoraves. (more info at https://tidalcycles.org/).
+The TidalCycles language is an expressive and concise way to describe the evolving of patterns in time. This makes it a very effective tool for creating rhythmic structures and managing them over time. (more info at https://tidalcycles.org/).
 TidalCycles is typically used in conjunction with the SuperDirt inside Supercollider, but it can be used to control any software or hardware that accepts incoming messages via the Open Sound Control (OSC) protocol. Using TidalCycles to control Max/MSP makes it possible to develop patches/devices that can also be used within Ableton Live and to sequence them in powerful and creative ways.
 
 ![](images/DeviceSnap01.png)
@@ -29,4 +29,4 @@ Once received, the message is split into many pairs parameter/value, which are s
 
 ## Conclusion
 
-These devices are based on an integration system between Max/MSP and TidalCycles developed together with Riccardo Ancona. I hope this package can be useful both for programmers who want to lean on a production-ready environment, and for musicians who want to experiment new algorithmic composition strategies with TidalCycles, without having experience with SuperCollider.
+These devices are based on an integration system between Max/MSP and TidalCycles developed together with Riccardo Ancona. I hope this package can be useful both for programmers who want to lean on a production-ready environment, and for musicians who want to experiment new algorithmic composition strategies with TidalCycles.
