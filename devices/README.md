@@ -6,4 +6,4 @@ This will allow you to control the device from tidal using the   # sound "Unique
 Be careful!
 if you open the device for editing it, you will have two applications (Max and Live) trying to listen from the same UDP port.
 In this case none of them will receive any message. In order to start again receiving messages you have to close one of the two applications
-(not just the Max patch, the whole Max application).
+(not just the patch, the whole application).
